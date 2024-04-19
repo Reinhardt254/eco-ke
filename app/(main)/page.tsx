@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { heading } from "@/utils";
+import Link from "next/link";
                             
 export default function Home() {
   return (
@@ -26,7 +27,9 @@ export default function Home() {
                 <div className="home-overlay-h2">MANUFACTURER</div>
                 <div className="home-overlay-button">
                    <a>
-                      CONTACT US TODAY
+                     <Link href="/contact">
+                       CONTACT US TODAY
+                     </Link>
                    </a>
                 </div>
             </div>
@@ -91,7 +94,9 @@ export default function Home() {
                      </div>
                      <div className="who-we-are-button">
                         <a>
-                           LEARN MORE
+                           <Link href="/about">
+                             LEARN MORE
+                           </Link>
                         </a>
                      </div>
                   </div>

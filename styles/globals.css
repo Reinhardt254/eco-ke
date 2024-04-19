@@ -231,9 +231,11 @@ body{
 
 .home-overlay-button a{
   background-color: #42946A;
+  color: white;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.6rem;
+  text-decoration: none;
 }
 
 .home-overlay-button a:hover {
@@ -406,6 +408,7 @@ body{
   cursor: pointer;
   font-size: 0.9rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .who-we-are-button a:hover{
@@ -656,7 +659,7 @@ body{
   .why-choose-us-p{
      width: 80%;
      padding-top: 0.5rem;
-     font-size: 1rem;
+     font-size: 1.1rem;
   }
 
   .why-choose-us{
