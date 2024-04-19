@@ -8,7 +8,7 @@ const About = () => {
          <div className="about-layout">
             <Navbar />
             <img
-               src="./images/about/Hero-image.png"
+               src="./images/home/Hero-image.png"
                alt="about-image"
                loading="lazy"
                className="about-layout-image hidden-small"
