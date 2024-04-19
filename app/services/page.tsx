@@ -6,7 +6,7 @@ const Services = () => {
        <section>
       <div className="services">
          <div className="services-layout">
-            <Navbar />
+            {/* <Navbar /> */}
             <img
               src="/images/services/hero-image.png"
               alt="services-homepage"
