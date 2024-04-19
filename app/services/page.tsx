@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar'
-import img from 'next/image'
 import React from 'react'
 
 const Services = () => {
