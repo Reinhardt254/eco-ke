@@ -190,13 +190,13 @@ section{
   padding: 0%;
 }
 
-@media only screen and (min-width: 1500px){
+/* @media only screen and (min-width: 1500px){
   .home-page-image{
     width: 100vw;
     max-height: 90vh;
     padding: 0%;
   }
-}
+} */
 
 @media only screen and (min-width: 600px){
  .hidden-large{

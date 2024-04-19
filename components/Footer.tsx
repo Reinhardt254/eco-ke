@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -7,13 +6,10 @@ const Footer = () => {
        <div className="footer">
          <div className="footer-container">
             <div className="footer-content-logo">
-               <Image
+               <img
                  src="/images/home/Color logo.png"
                  alt="logo"
                  className="footer-logo-image"
-                 fill={false}
-                 width={300}
-                 height={150}
                />
                <div>
 
