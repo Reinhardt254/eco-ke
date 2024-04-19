@@ -10,7 +10,7 @@ const Services = () => {
             <img
               src="/images/services/hero-image.png"
               alt="services-homepage"
-              className="services-page-image large"
+              className="services-page-image"
               loading="lazy"
             />
 
