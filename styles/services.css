@@ -3,9 +3,18 @@ body{
 }
 
 .services-page-image{
-   width: 100%;
+   width: 100vw;
    max-height: 100vh;
+   padding: 0%;
 }
+
+@media only screen and (min-height: 1500px){
+   .services-page-image{
+     width: 100vw;
+     max-height: 80vh;
+     padding: 0%;
+   }
+ }
 
 .services-layout{
    height: 100%;

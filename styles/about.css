@@ -7,8 +7,17 @@ body{
 }
 
 .about-layout-image{
-   width: 100%;
+   width: 100vw;
    max-height: 100vh;
+   padding: 0%;
+}
+
+@media only screen and (min-height: 1500px){
+   .about-layout-image{
+     width: 100vw;
+     max-height: 80vh;
+     padding: 0%;
+   }
 }
 
 @media only screen and (min-width: 600px){
