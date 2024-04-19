@@ -4,17 +4,17 @@ body{
 
 .services-page-image{
    width: 100%;
-   max-height: 80vh;
+   max-height: 100vh;
 }
 
 @media only screen and (min-width: 800px){
-   .small{
+   .smalls{
       display: none;
    }
 }
 
 @media only screen and (max-width: 800px){
-   .large{
+   .larges{
       display: none;
    }
 }

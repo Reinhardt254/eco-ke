@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar'
-import React from 'react'
 
 const Services = () => {
   return (
@@ -11,14 +10,14 @@ const Services = () => {
             <img
               src="/images/services/hero-image.png"
               alt="services-homepage"
-              className="services-page-image large"
+              className="services-page-image larges"
               loading="lazy"
             />
 
             <img
               src="/images/services/Hero-image1.png"
               alt="services-homepage"
-              className="services-page-image small"
+              className="services-page-image smalls"
               loading="lazy"
              />
 
