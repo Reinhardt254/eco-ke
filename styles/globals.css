@@ -5,6 +5,10 @@ body{
   margin: 0%;
 }
 
+section{
+  overflow: hidden;
+}
+
 .home-page{
   height: 100%;
   width: auto;

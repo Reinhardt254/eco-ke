@@ -6,7 +6,7 @@ import "../styles/about.css"
 import "../styles/contact.css"
 import Footer from "@/components/Footer";
 
-const inter = Nunito({ subsets: ["vietnamese"], weight: "300" });
+const inter = Nunito({ subsets: ["vietnamese"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Eco-Kenya",
