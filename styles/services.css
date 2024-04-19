@@ -7,18 +7,6 @@ body{
    max-height: 80vh;
 }
 
-@media only screen and (min-width: 800px){
-   .services-small{
-      display: none;
-   }
-}
-
-@media only screen and (max-width: 800px){
-   .services-large{
-      display: none;
-   }
-}
-
 .services-layout{
    height: 100%;
    width: 100%;
