@@ -1,0 +1,366 @@
+body{
+   font-family: "Poppins", sans-serif;
+}
+
+.about-layout-image{
+   width: 100%;
+   max-height: 80vh;
+}
+
+@media only screen and (min-width: 600px){
+   .hidden-large {
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 600px){
+   .hidden-small {
+      display: none;
+   }
+}
+
+.about-layout{
+   position: relative;
+}
+
+.about-layout-text{
+   position: relative;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.about-layout-text{
+   font-size: 1.6rem;
+   font-family: "Nunito", sans-serif;
+   color: white;
+   position: absolute;
+   bottom: 50%;
+   left: 10%;
+   transform: translate(-10%, 50%);
+}
+
+@media only screen and (min-width: 600px){
+   .about-layout-text{
+      font-size: 2rem;
+      font-family: "Nunito", sans-serif;
+      font-weight: 800;
+      color: white;
+      position: absolute;
+      bottom: 50%;
+      left: 10%;
+      transform: translate(-10%, 50%);
+   }
+}
+
+@media only screen and (min-width: 1030px){
+   .about-layout-text{
+      font-size: 2.2rem;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      color: white;
+      position: absolute;
+      bottom: 50%;
+      left: 10%;
+      transform: translate(-10%, 50%);
+   }
+}
+
+.about-cards{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-cards-container{
+  padding-top: 1rem;
+  margin-right: 0%;
+  padding-right: 10%;
+  padding-left: 10%;
+  height:auto;
+}
+
+@media only screen and (max-width: 600px){
+   .about-cards-container{
+      padding-top: 1rem;
+      margin-right: 0%;
+      padding-right: 0%;
+      padding-left: 0%;
+      height:auto;
+    }
+}
+
+.about-cards-content{
+   height: 100%;
+   display: flex;
+   background-color: rgb(240, 248, 255);
+}
+
+.about-cards-image{
+   height: auto;
+   width: 100%;
+}
+
+.about-small-cont{
+   display:flex;
+   width: 100%;
+   position: relative;
+}
+
+.about-cards-h1{
+   width: auto;
+   font-size: 1.5rem;
+   padding-left: 0.8rem;
+   padding-right: 0.8rem;
+   padding-top: 2rem;
+   color:green;
+}
+
+.mission-h1{
+   text-align: end;
+   padding-right: 35vw;
+}
+
+.about-cards-text-p{
+   height: auto;
+   width: 100%;
+   padding-left: 0.8rem;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   padding-right: rem;
+   font-size: 1.1rem;
+   min-height: 30vw;
+}
+
+.about-cards-image-container{
+   position: relative;
+   width: 100%;
+}
+
+.image-right{
+   position: absolute;
+   top: -2rem;
+   right: -2rem;
+}
+
+.image-left{
+   position: absolute;
+   top: -2rem;
+   left: -2rem;
+}
+
+.image-right-b{
+   position: absolute;
+   top: -2rem;
+   right: -2rem;
+}
+
+
+@media only screen and (max-width: 600px){
+   .mission-h1{
+      text-align: start;
+      padding-right: 0%;
+   }
+
+   .about-cards-h1{
+      width: auto;
+      font-size: 1.4rem;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      padding-top: 1rem;
+      padding-bottom: 18%;
+      color:green;
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+   }
+
+   .about-cards-h1s{
+      width: auto;
+      font-size: 1.4rem;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      padding-top: 1.5rem;
+      padding-bottom: 18%;
+      color:green;
+      font-family: "Nunito", sans-serif;
+   }
+
+   .about-cards-image-small{
+      position: absolute;
+      width: 80%;
+      top: -15vw;
+      left: -5%;
+   }
+
+   .about-cards-content{
+      position: relative;
+      height: 100%;
+      width: 100%;
+   }
+
+   .about-cards-content{
+      height: 100%;
+      margin-left: 5%;
+      width: auto;
+      display: flex;
+      background-color: rgb(240, 248, 255);
+   }
+
+   .about-cards-text-p{
+      height: auto;
+      width: 100%;
+      padding-left: 0.8rem;
+      padding-top: 70%;
+      padding-bottom: 1rem;
+      font-size: 0.9rem;
+      font-weight: 400;
+   }
+
+   .about-cards-text-ps{
+      height: auto;
+      width: 100%;
+      padding-left: 0.8rem;
+      padding-top: 66%;
+      padding-bottom: 1rem;
+      font-size: 0.9rem;
+   }
+
+}
+
+@media only screen and (min-width: 600px){
+   .about-cards-image{
+      height: 100%;
+      width: 100%
+   }
+
+   .about-cards-container{
+      padding-top: 1rem;
+      margin-right: 0%;
+      padding-right: 0.8rem;
+      padding-left: 0.8rem;
+      height:auto;
+    }
+
+    .about-cards-h1{
+      width: auto;
+      font-size: 1.8rem;
+      font-weight: 600;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      padding-top: 2rem;
+      color:green;
+      font-family: "Nunito", sans-serif;
+   }
+   
+   .mission-h1{
+      text-align: end;
+      padding-right: 30vw;
+   }
+
+   .about-cards-text-p{
+      height: auto;
+      width: 100%;
+      padding-left: 0.8rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      padding-right: rem;
+      font-size: 0.9rem;
+      min-height: 30vw;
+   }
+}
+
+@media only screen and (min-width: 850px){
+   .about-cards-image{
+      height: 100%;
+      width: 100%
+   }
+
+   .about-cards-container{
+      padding-top: 1rem;
+      margin-right: 0%;
+      padding-right: 5%;
+      padding-left: 5%;
+      height:auto;
+    }
+
+    .about-cards-text-p{
+      height: auto;
+      width: 100%;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .pr{
+     padding-right: 1rem;
+   } 
+      
+}
+
+@media only screen and (min-width: 1050px){
+   .about-cards-container{
+      padding-top: 1rem;
+      margin-right: 0%;
+      padding-right: 10%;
+      padding-left: 10%;
+      height:auto;
+    }
+
+    .about-cards-image{
+      height: 100%;
+      width: 100%;
+   }
+
+   .mission-h1{
+      text-align: end;
+      padding-right: 40%;
+   }
+}
+
+@media only screen and (min-width: 1400px){
+   .about-cards-container{
+      padding-top: 1rem;
+      margin-right: 0%;
+      padding-right: 20%;
+      padding-left: 20%;
+      height:auto;
+    }
+
+    .about-cards-h1{
+      width: auto;
+      font-size: 2.5rem;
+      font-weight: 600;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      padding-top: 3rem;
+      color:green;
+      font-family: "Nunito", sans-serif;
+   }
+
+    .mission-h1{
+      text-align: end;
+      padding-right: 20vw;
+   }
+
+    .about-cards-image{
+      height: 100%;
+      width: 100%;
+   }
+
+   .about-cards-text-p{
+      height: auto;
+      width: 100%;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
