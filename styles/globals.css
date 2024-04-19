@@ -1,11 +1,16 @@
 body{
   font-family: "Poppins", sans-serif;
+  width: auto;
+  padding: 0%;
+  margin: 0%;
 }
 
 .home-page{
   height: 100%;
-  width: 100%;
+  width: auto;
   position: relative;
+  padding: 0px;
+  overflow: hidden;
 }
 
 .heading{
@@ -34,10 +39,11 @@ body{
 .navbar{
   position: absolute;
   top: 0;
+  display: non;
 }
 
 .navbar-bg-image{
-  width: 100%;
+  width: 100vw;
   min-height: 3rem;
 }
 
@@ -83,7 +89,7 @@ body{
   cursor: pointer;
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .navbar-links-a:hover{
@@ -176,8 +182,9 @@ body{
 
 
 .home-page-image{
-  width: 100%;
+  width: 100vw;
   max-height: 80vh;
+  padding: 0%;
 }
 
 @media only screen and (min-width: 600px){
