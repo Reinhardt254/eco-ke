@@ -16,14 +16,13 @@ body{
 .heading{
   font-size: 1.6rem;
   font-weight: 600;
-  font-family: "Nunito", sans-serif;
 }
 
 @media only screen and (min-width: 600px){
   .heading{
      font-size: 2rem;
      font-weight: 600;
-     font-family: "Nunito", sans-serif;
+  
   }
 }
 
@@ -31,7 +30,7 @@ body{
   .heading{
      font-size: 2rem;
      font-weight: 600;
-     font-family: "Nunito", sans-serif;
+  
   }
 }
 /* ============================================================NAVBAR========================================================= */
@@ -211,7 +210,6 @@ body{
   color: white;
   top: 55%;
   left: 10%;
-  font-family: "Nunito", sans-serif;
   transform: translate(-10%, -50%);
 }
 

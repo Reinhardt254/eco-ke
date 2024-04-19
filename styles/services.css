@@ -25,7 +25,6 @@ body{
    color: whitesmoke;
    font-weight: 800;
    font-size: 1.6rem;
-   font-family: "Nunito", sans-serif;
 }
 
 .services-adapt-card{
@@ -50,7 +49,6 @@ body{
    font-size: 1.6rem;
    font-weight: 800;
    color: #42946A;
-   font-family: "Nunito", sans-serif;
 }
 
 .services-our-container{
@@ -82,7 +80,6 @@ body{
    font-weight: 800;
    font-size: 1.2rem;
    color: #639287;
-   font-family: "Nunito", sans-serif;
 }
 
 .services-our-p{
@@ -98,7 +95,7 @@ body{
       color: whitesmoke;
       font-weight: 800;
       font-size: 2rem;
-      font-family: "Nunito", sans-serif;
+
    }
 
    .services-our-cards{
@@ -210,7 +207,7 @@ body{
       color: whitesmoke;
       font-weight: 800;
       font-size: 2.2rem;
-      font-family: "Nunito", sans-serif;
+
    }
 
    .services-our-card{

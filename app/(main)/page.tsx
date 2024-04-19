@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-
+import { heading } from "@/utils";
                             
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
             alt="homepage-img"
             className="home-page-image hidden-large"
           />
+          <div className={heading.className}>
             <div className="home-overlay-text">
                 <div className="home-overlay-h1">ECO THREADS</div>
                 <div className="home-overlay-h2">TEXTILES KENYA EPZ</div>
@@ -29,6 +30,7 @@ export default function Home() {
                    </a>
                 </div>
             </div>
+          </div>
          </div>
 
        <div className="who-we-are">

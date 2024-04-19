@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins, Nunito } from "next/font/google";
 import "../styles/globals.css"
 import "../styles/services.css"
 import "../styles/about.css"
 import "../styles/contact.css"
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Nunito({ subsets: ["vietnamese"], weight: "300" });
 
 export const metadata: Metadata = {
-  title: "Eko-Kenya",
+  title: "Eco-Kenya",
   description: "Eco Threads Kenya",
 };
 
