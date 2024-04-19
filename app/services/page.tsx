@@ -8,14 +8,14 @@ const Services = () => {
          <div className="services-layout">
             <Navbar />
             <img
-              src="/images/home/hero-image.png"
+              src="./images/home/hero-image.png"
               alt="services-homepage"
               className="services-page-image hidden-small"
               loading="lazy"
             />
 
             <img
-              src="/images/services/Hero-image1.png"
+              src="./images/services/Hero-image1.png"
               alt="services-homepage"
               className="services-page-image hidden-large"
               loading="lazy"
