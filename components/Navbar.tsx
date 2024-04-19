@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link href="/" className="toggle-nav-cont-a">HOME</Link>
             <Link href="/about" className="toggle-nav-cont-a">ABOUT US</Link>
             <Link href="/services" className="toggle-nav-cont-a">SERVICES</Link>
-            <Link href="/contact" className="toggle-nav-cont-a">Contact</Link>
+            <Link href="/contact" className="toggle-nav-cont-a">CONTACT</Link>
          </div>
          <div 
            className="toggle-back"
