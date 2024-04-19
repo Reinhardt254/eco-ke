@@ -10,16 +10,16 @@ const Services = () => {
             <img
               src="/images/services/hero-image.png"
               alt="services-homepage"
-              className="services-page-image"
+              className="services-page-image services-large"
               loading="lazy"
             />
 
-            {/* <img
+            <img
               src="/images/services/Hero-image1.png"
               alt="services-homepage"
-              className="services-page-image smalls"
+              className="services-page-image services-small"
               loading="lazy"
-             /> */}
+             />
 
             <div className="services-layout-text">
                <div  className="services-layout-h1">SERVICES</div>
