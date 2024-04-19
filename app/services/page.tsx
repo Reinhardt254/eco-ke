@@ -6,9 +6,9 @@ const Services = () => {
        <section>
       <div className="services">
          <div className="services-layout">
-            {/* <Navbar /> */}
+            <Navbar />
             <img
-              src="/images/services/hero-image.png"
+              src="/images/home/hero-image.png"
               alt="services-homepage"
               className="services-page-image hidden-small"
               loading="lazy"
