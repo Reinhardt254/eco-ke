@@ -10,14 +10,14 @@ const Services = () => {
             <img
               src="/images/services/hero-image.png"
               alt="services-homepage"
-              className="services-page-image hidden-large"
+              className="services-page-image hidden-small"
               loading="lazy"
             />
 
             <img
               src="/images/services/Hero-image1.png"
               alt="services-homepage"
-              className="services-page-image hidden-small"
+              className="services-page-image hidden-large"
               loading="lazy"
              />
 
