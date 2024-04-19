@@ -290,10 +290,11 @@ body{
     .about-cards-text-p{
       height: auto;
       width: 100%;
+      font-weight: 300;
       padding-top: 1rem;
       padding-left: 2rem;
       padding-bottom: 1rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -361,7 +362,7 @@ body{
       padding-top: 1rem;
       padding-left: 2rem;
       padding-bottom: 1rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
       display: flex;
       justify-content: center;
       align-items: center;
