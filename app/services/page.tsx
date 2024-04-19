@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar'
 
 const Services = () => {
   return (
-    <div>
        <section>
       <div className="services">
          <div className="services-layout">
@@ -78,7 +77,6 @@ const Services = () => {
          </div>
       </div>
    </section>
-    </div>
   )
 }
 

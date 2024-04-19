@@ -3,7 +3,6 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
       <section>
       <div className="contact-layout">
          <div className="contact-layout-content">
@@ -37,7 +36,6 @@ const Contact = () => {
          </div>
       </div>
    </section>
-    </div>
   )
 }
 

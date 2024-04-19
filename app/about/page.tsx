@@ -3,7 +3,6 @@ import React from 'react'
 
 const About = () => {
   return (
-  <div>
     <section>
       <div className="about">
          <div className="about-layout">
@@ -104,7 +103,6 @@ const About = () => {
          </div>
       </div>
    </section>
-    </div>
   )
 }
 
