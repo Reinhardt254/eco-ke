@@ -8,7 +8,7 @@ const Services = () => {
          <div className="services-layout">
             <Navbar />
             <img
-              src="./images/home/hero-image.png"
+              src="./images/home/Hero-image.png"
               alt="services-homepage"
               className="services-page-image hidden-small"
               loading="lazy"
